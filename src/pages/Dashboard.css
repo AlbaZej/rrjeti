@@ -1,0 +1,47 @@
+.dashboard-container {
+    padding: 3rem;
+    min-height: 80vh;
+    background: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #001f3f;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+  th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  th {
+    background: #001f3f;
+    color: white;
+  }
+  
+  tr:hover {
+    background: #f9fbff;
+    transition: 0.3s ease;
+  }
+  .dashboard-chart-fixed {
+    height: 250px;
+    margin: 2rem 0;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
